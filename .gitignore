@@ -1,0 +1,10 @@
+# Git Ignore for WooCommerce Epicure
+
+# IDE Files.
+# -------------------------------------
+./idea
+
+# Dependencies.
+# -------------------------------------
+node_modules
+yarn.lock

@@ -1,0 +1,135 @@
+.wep-container {
+  > * {
+    float: left;
+  }
+}
+
+#wepMenuList {
+  width: 25%;
+  ul {
+    list-style: none;
+    &:first-child {
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      ul {
+        padding-left: 1em;
+      }
+      a {
+        width: 100%;
+        padding-left: 1em;
+        line-height: 2.5em;
+        border-bottom: 1px dotted rgba(0, 0, 0, .5);
+        display: inline-block;
+      }
+    }
+  }
+  ul ul {
+    li a {
+      color: #c11d1f;
+      font-size: .9em;
+      &:hover, &:focus {
+        background: #c11d1f;
+        cursor: pointer;
+        color: white;
+
+      }
+    }
+  }
+}
+
+#wepCurrentItem {
+  width: 55%;
+}
+
+#wepTheCart {
+  padding: 1em;
+  width: 20%;
+}
+
+.wep-menu-item {
+  height: 100vh;
+  max-height: 650px;
+}
+
+.wep-menu-item.hide {
+  display: none;
+}
+
+.wep-menu-item-placeholder {
+
+  padding-right: 1em;
+
+  span {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #c11d1f;
+    color: white;
+    font-size: 2.5em;
+  }
+}
+
+/* Move this later, only for Mama's Shelia's */
+
+#wepMenuList {
+  padding-right: 1em;
+  li {
+    a {
+      border-right: 1px solid gray;
+      border-bottom: 1px solid gray !important;
+    }
+  }
+  > ul > li > a {
+    background: #E9AA02;
+    color: black;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    margin-top: -1px;
+    font-family: "baltica-extra-condensed", serif !important;
+    font-size: 1.5em;
+    line-height: 1.75em;
+  }
+  ul ul li {
+    a {
+      border-left: 1px solid gray;
+    }
+  }
+}
+
+.fl-button,
+.button {
+  background: #c11d1f !important;
+  border-color: #c11d1f !important;
+  color: white !important;
+  font-family: "baltica-extra-condensed", serif !important;
+  text-transform: uppercase;
+  font-size: 1.3em !important;
+  &:hover, &:focus {
+    background: #E9AA02 !important;
+    border-color: #E9AA02 !important;
+  }
+}
+
+.wep-menu-item {
+  .product_meta {
+    display: none;
+  }
+  .button {
+    margin-top: 1em;
+  }
+  input {
+    width: 75px !important;
+  }
+}
+
+#wepTheCart {
+  border: 1px solid gray;
+  h3 {
+    margin: 0;
+  }
+}
